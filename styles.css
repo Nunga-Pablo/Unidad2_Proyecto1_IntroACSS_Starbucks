@@ -234,7 +234,63 @@ button
 
 /*FOOTER*/
 
+.about-us
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 55vw;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
+}
+
+.about-us a
+{
+    color: gray;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.client-attention
+{
+    margin-left: 3vw;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
+
 footer p
 {
     color: black;
+}
+
+.social-media
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 22vw;
+    margin-bottom: 4vh;
+}
+
+.social-media img
+{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.others li
+{
+    padding-right: 1vw;
+    color: gray;
+}
+
+.reserved-rights p
+{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
 }
