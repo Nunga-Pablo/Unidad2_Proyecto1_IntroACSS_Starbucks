@@ -48,6 +48,11 @@ body
     margin-right: 520px;
 }
 
+#menu-click
+{
+    margin-right: 40px;
+}
+
 ul
 {
     display: flex;
@@ -55,88 +60,16 @@ ul
     list-style: none;
 }
 
-#menu-button
-{
-    margin-right: 40px;
-}
-
 a
 {
     font-weight: bold;
     color: black;
-    border: none;
-    border-radius: 5px;
     text-decoration: none;
 }
 
 a:hover
 {
     color: #1e3932;
-}
-
-#black-button
-{
-    background-color: white;
-    border: 5;
-    border-color: black;
-    width: 6vw;
-    height: 4vh;
-    margin-right: 20px;
-    margin-left: 30px;
-    border-radius: 50px;
-}
-
-#black-button:hover
-{
-    background-color: rgba(255, 255, 255, 0.592);
-}
-
-#white-button
-{
-    background-color: black;
-    width: 5vw;
-    height: 4vh;
-    margin: auto;
-    border-radius: 50px;
-}
-
-#white-button:hover
-{
-    background-color: rgba(0, 0, 0, 0.79);
-}
-
-#button-conoce
-{
-    background-color: #c1240f;
-    color: white;
-    border: 5;
-    border-color: white;
-    width: 7vw;
-    height: 5vh;
-    margin: auto;
-    border-radius: 50px;
-}
-
-#button-conoce:hover
-{
-    background-color: rgba(188, 79, 65, 0.6);
-    color: white;
-    border: 5;
-    border-color: white;
-    width: 7vw;
-    height: 5vh;
-    margin: auto;
-    border-radius: 50px;
-}
-
-#unete
-{
-    color: white;
-}
-
-#conoce-mas
-{
-    color: white;
 }
 
 /*imagenes con texto*/
@@ -151,7 +84,7 @@ a:hover
     margin-bottom: 30px;
 }
 
-.container img
+#individual-img
 {
     width: 45.5vw;
     height: auto;
@@ -162,22 +95,6 @@ a:hover
     text-align: center;
     font-size: 19px;
     padding: 5%;
-}
-
-h2
-{
-    font-family: "Noto Sans", sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-}
-
-p
-{
-   
-    font-family: "Noto Sans", sans-serif;
-    text-align: center;
-    color: white;
 }
 
 #container-green
@@ -202,12 +119,122 @@ p
     flex-direction: row-reverse;
 }
 
-/*footer*/
-
-.login-container-imgdown
+.container-couple
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 50px;
+    text-align: center;
+    font-size: 19px; 
+    margin-right: 2vw;
+}
+
+#container-couple-red
+{
+    color: #d50032;
+    background: #f6bfd9;
+}
+
+#container-couple-blue
+{
+    color: #144e5d;
+    background: #98cde4;
+}
+
+#couple-img-red
+{
+    width: 44vw;
+    height: auto;
+}
+
+#couple-img-blue
+{
+    width: 44vw;
+    height: auto;
+}
+
+/*BOTONES*/
+
+button
+{
+    border-radius: 50px;
+    border: 1;
+}
+
+#white-button-ingresar
+{
+    background-color: white;
+    border-color: black;
+    width: 6vw;
+    height: 4vh;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+#white-button-ingresar:hover
+{
+    background-color: rgba(255, 255, 255, 0.592);
+}
+
+#black-button-unete
+{
+    background-color: black;
+    width: 5vw;
+    height: 4vh;
+    margin: auto;
+}
+
+#black-button-unete:hover
+{
+    background-color: rgba(0, 0, 0, 0.79);
+}
+
+#black-button-unete-text
+{
+    color: white;
+}
+
+#button-conoce
+{
+    background-color: #d50032;
+    color: white;
+    border-color: white;
+    width: 7vw;
+    height: 5vh;
+    margin: auto;
+}
+
+#button-conoce:hover
+{
+    background-color: #ca3659;
+}
+
+#button-aqui
+{
+    background-color: #f6bfd9;
+    border-color: #d50032;
+    width: 4vw;
+    height: 4vh;
+}
+
+#button-aqui-text
+{
+    color: #d50032;
+}
+
+#button-vermas
+{
+    background-color: #98cde4;
+    border-color: #144e5d;
+    width: 6vw;
+    height: 4.5vh;
+}
+
+#button-vermas-text
+{
+    color: #144e5d;
+}
+
+/*FOOTER*/
+
+footer p
+{
+    color: black;
 }

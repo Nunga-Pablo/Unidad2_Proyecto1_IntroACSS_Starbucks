@@ -14,7 +14,7 @@
             <nav class="navbar-left">
                 <a href="index.html"><img id="logo" src="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1017px-Starbucks_Corporation_Logo_2011.svg.png" alt="Starbucks-Logo"></a>
                 <ul>
-                    <li><a id="menu-button" href="https://www.starbucks.com.mx/menu">Menu</a></li>
+                    <li><a id="menu-click" href="https://www.starbucks.com.mx/menu">Menu</a></li>
                     <li><a href="https://rewards.starbucks.mx/" target="_blank">Rewards</a></li>
                 </ul>
             </nav>
@@ -23,11 +23,11 @@
                     <li><a href="https://www.starbucks.com.mx/stores"><img id="zone" 
                         src="https://cdn.icon-icons.com/icons2/622/PNG/512/facebook-placeholder-for-locate-places-on-maps_icon-icons.com_57151.png" alt="ubicacion"></a></li>
                     <li><a href="https://www.starbucks.com.mx/stores">Localizar tienda</a></li>
-                    <button id="black-button">
+                    <button id="white-button-ingresar">
                         <li><a href="https://rewards.starbucks.mx/login">Ingresar</a></li>
                     </button>
-                    <button id="white-button">
-                        <li><a id="unete" href="https://rewards.starbucks.mx/register">Únete</a></li>
+                    <button id="black-button-unete">
+                        <li><a id="black-button-unete-text" href="https://rewards.starbucks.mx/register">Únete</a></li>
                     </button>
                 </ul>
             </nav>
@@ -35,7 +35,8 @@
     </header>
 
     <section class="container" id="container-green">
-        <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" alt="imagen1">
+        <img id="individual-img" alt="Starbucks-latte"
+            src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_SB_Latte.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
         <section class="container-starbucks">
             <h2>STARBUCKS LATTE POR TI</h2>
             <p>
@@ -48,8 +49,8 @@
     </section>
 
     <section class="container" id="container-blue">
-        <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" alt="imagen2">
-
+        <img id="individual-img" alt="cafes-temporada"
+            src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FHOLIDAY_2024-Spooky.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
         <section class="container-starbucks">
             <h2>
                 CELEBREMOS CON LOS FAVORITOS <br> DE LA TEMPORADA 
@@ -63,8 +64,8 @@
     </section>
 
     <section class="container" id="container-red">
-        <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FMerch.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" alt="imagen3">
-
+        <img id="individual-img" alt="cafe-rojo"
+            src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FMerch.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
         <section class="container-starbucks">
             <h2>EL CAFÉ PERFECTO <br> PARA ESTA TEMPORADA</h2>
             <p>
@@ -77,8 +78,8 @@
     </section>
 
     <section class="container" id="container-green-reverse">
-        <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2Fstarbucks_rewards.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" alt="imagen4">
-
+        <img id="individual-img" alt="Starbucks-rewards"
+            src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2Fstarbucks_rewards.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
         <section class="container-starbucks">
             <h2>
                 RECOMPENSAS EN <br> TU BEBIDA FAVORITA
@@ -92,8 +93,8 @@
     </section>
 
     <section class="container" id="container-red">
-        <img src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_HOLIDAY_2024_Apple%20(1).png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" alt="imagen5">
-
+        <img id="individual-img" alt="Starbucks-vasos" 
+            src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2F2024-10_HOLIDAY_2024_Apple%20(1).png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
         <section class="container-starbucks">
             <h2>TODO Y TODOS POR EL PLANETA</h2>
             <p>
@@ -102,21 +103,30 @@
             </p>
             <p>
                 <button id="button-conoce">
-                    <a id="conoce-mas" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0">Conoce más</a>
+                    <a id="black-button-unete-text" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0">Conoce más</a>
                 </button>
             </p>
         </section>
     </section>
 
-    <section>
-        <section>
-            <img id="img5" src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2" alt="imagen6">
+    <section class="container">
+        <section class="container-couple" id="container-couple-red">
+            <img id="couple-img-red" alt="noticias-starbucks"
+                src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FNoticias.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
+            <p>Consulta los eventos más <br> recientes.</p>
             <p>
-                Consulta los eventos más <br> recientes.
+                <button id="button-aqui">
+                    <a id="button-aqui-text" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0">Aquí</a>
+                </button>
             </p>
+        </section>
+        <section class="container-couple" id="container-couple-blue">
+            <img id="couple-img-blue" alt="noticias-starbucks" 
+                src="https://djftrby1k8irl.cloudfront.net/s3fs-public/2024-11%2FTC.png?auto=format,compress&q=70&crop=focalpoint&ar=1.8:1.0&w=1400&fit=max&dpr=2">
+            <p>Términos y <br> condiciones.</p>
             <p>
-                <button id="button-conoce">
-                    <a id="conoce-mas" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0">Aquí</a>
+                <button id="button-vermas">
+                    <a id="button-vermas-text" href="https://www.starbucks.com.mx/articulo/todo-y-todos-por-el-planeta-0">Ver mas</a>
                 </button>
             </p>
         </section>
