@@ -245,6 +245,7 @@ button
 
 .about-us a
 {
+    font-weight: 500;
     color: gray;
     font-family: "Noto Sans", sans-serif;
 }
@@ -282,14 +283,22 @@ footer p
     text-align: center;
 }
 
-.others li
+.others ul li
 {
+    font-weight: normal;
+    text-align: center;
     padding-right: 1vw;
+}
+
+.others a
+{
+    font-weight: 300;
     color: gray;
 }
 
 .reserved-rights p
 {
+    font-weight: 300;
     text-align: center;
     color: gray;
     font-size: 13px;
