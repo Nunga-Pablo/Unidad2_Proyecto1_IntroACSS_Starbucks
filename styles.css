@@ -420,7 +420,8 @@ footer p
 
 .right-container
 {
-
+    display: flex;
+    flex-direction: column;
     width: 50vw;
     margin-left: 50vw;
     padding-top: 18px;
@@ -469,4 +470,81 @@ footer p
 div
 {
     margin-bottom: 80px;
+}
+
+.stars-rewards
+{
+    display: flex;
+    flex-direction: column;   
+    background: #f1f0eb;
+    margin-left: -122px;
+    width: 58vw;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#stars
+{
+    width: 30vw;
+    height: auto;
+}
+
+.app-download
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.app-download-imgs
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#step1
+{
+    margin-left: -300px;
+    width: 8vw;
+    height: 20vh;
+}
+
+#step2
+{
+    margin-left: -350px;
+    width: 15vw;
+    height: 30vh;
+}
+
+#step3
+{
+    margin-left: -250px;
+    width: 8vw;
+    height: 20vh;
+}
+
+#chica-starbucks
+{
+    width: 18vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 350px;
+    bottom: 380px;
+}
+
+.youtube-video
+{
+    margin-left: -123px;
+    width: 59vw; 
+    height: 100vh;
+    margin-top: -200px;
+}
+
+iframe
+{
+    width: 59vw; 
+    height: 100vh;
 }
