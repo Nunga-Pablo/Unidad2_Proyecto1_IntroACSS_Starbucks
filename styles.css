@@ -315,7 +315,7 @@ footer p
     background: white;
     top: 0px;
     z-index: 10;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 160px 0px 160px;
 }
 
 #white-button-iniciarSesion
@@ -333,7 +333,7 @@ footer p
 
 #LocalizaTuTienda
 {
-    font-size: 14px;
+    font-size: 11.6px;
     margin-left: 5px;
 }
 
@@ -360,7 +360,7 @@ footer p
 .rewards-container
 {
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     height: calc(100vh- 50px);
 }
 
@@ -370,7 +370,7 @@ footer p
 {
     position: fixed;
     width: 42vw;
-    height: 86vh;
+    height: 90vh;
     background: linear-gradient(0deg, rgb(29,57,50) 0%, rgb(10,105,75) 100%);
     color: white;
     margin: 0;
@@ -557,9 +557,15 @@ iframe
     background: #f1f0eb;
     width: 60vw;
     margin-left: -122px;
-    padding-right: 100px;
+    padding-top: 30px;
     padding-bottom: 50px;
     align-items: center;
+    justify-content: center;
+}
+
+.order-and-pay h2
+{
+    font-size: 20px;
 }
 
 .order-and-pay-wrap
@@ -574,6 +580,7 @@ iframe
 {
     display: flex;
     align-items: center;
+    width: 240px;
     text-align: left;
     font-weight: 600;
 }
@@ -584,20 +591,20 @@ iframe
     flex-direction: row-reverse;
     align-items: center;
     text-align: left;
-    font-weight: 600;
 }
 
 #order-and-pay-stars
 {
-    width: 5vw;
-    height: 7vh;
+    width: 3vw;
+    height: 5vh;
 }
 
 #order-and-pay-qrs
 {
-    width: 6vw;
+    width: 5vw;
     height: 18vh;
-    margin-right: 10px;
+    margin-left: -50px;
+    margin-right: 8px;
 }
 
 #order-and-pay-card
@@ -612,13 +619,27 @@ iframe
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
+}
+
+.starbucks-app img
+{
+    width: 20vw;
+    height: 30vh;
 }
 
 .play-app-store
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+}
+
+.play-app-store img
+{
+    display: flex;
+    margin: 25px;
+    width: 10vw;
+    height: 7vh;
 }
 
 .conoce-mas
@@ -628,8 +649,23 @@ iframe
     flex-direction: row;
     margin-left: -122px;
     width: 58vw;
+    padding-top: 50px;
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
     text-align: left;
+    font-size: 16px;
+}
+
+.conoce-mas img
+{
+    width: 25vw;
+    height: 25vh;
+}
+
+.conoce-mas-text a
+{
+    color: #156f4f;
+    font-weight: 400;
+    text-decoration: underline;
 }
