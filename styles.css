@@ -313,8 +313,9 @@ footer p
 {
     position: fixed;
     background: white;
-    top: 10px;
+    top: 0px;
     z-index: 10;
+    padding: 0px 150px 0px 150px;
 }
 
 #white-button-iniciarSesion
@@ -547,4 +548,88 @@ iframe
 {
     width: 59vw; 
     height: 100vh;
+}
+
+.order-and-pay
+{
+    display: flex;
+    flex-direction: column;
+    background: #f1f0eb;
+    width: 60vw;
+    margin-left: -122px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.order-and-pay-wrap
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-and-pay-imgs
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+}
+
+.order-and-pay-card
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+}
+
+#order-and-pay-stars
+{
+    width: 5vw;
+    height: 7vh;
+}
+
+#order-and-pay-qrs
+{
+    width: 6vw;
+    height: 18vh;
+    margin-right: 10px;
+}
+
+#order-and-pay-card
+{
+    width: 25vw;
+    height: 20vh;
+}
+
+.starbucks-app
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-app-store
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conoce-mas
+{
+    background: #f1f0eb;
+    display: flex;
+    flex-direction: row;
+    margin-left: -122px;
+    width: 58vw;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
