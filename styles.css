@@ -495,12 +495,6 @@ footer p
     flex-wrap: wrap;
 }
 
-#join-rewards-images
-{
-    display: flex;
-    flex-direction: column;
-}
-
 #benefits
 {
     width: 10vw;
