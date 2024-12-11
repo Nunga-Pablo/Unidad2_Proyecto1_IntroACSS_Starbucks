@@ -17,6 +17,7 @@
     font-weight: 800;
     font-size: 28px;
     margin-left: 1.3vw;
+    margin-bottom: 6vh;
 }
 
 .menu p
@@ -88,4 +89,9 @@
 .about-us
 {
     margin-top: 8vh;
+}
+
+.others li
+{
+    color: gray;
 }
