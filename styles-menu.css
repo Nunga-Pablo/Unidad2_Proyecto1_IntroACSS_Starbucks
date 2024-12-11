@@ -1,0 +1,97 @@
+.menu
+{
+    width: 80vw;
+}
+
+.menu h3
+{
+    border-top: solid;
+    border-bottom: solid;
+    padding: 1.5%;
+    border-color: gray;
+    border-width: 1px;
+}
+
+.menu h2
+{
+    font-weight: 800;
+    font-size: 28px;
+    margin-left: 1.3vw;
+    margin-bottom: 6vh;
+}
+
+.menu p
+{
+   font-weight: bold;
+   font-size: large;
+}
+
+#texto-disfrutalos
+{
+    margin-bottom: -3vh;
+    margin-left: 1.5vw;
+}
+
+.menu img
+{
+    background-color: #1e3932;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 0.6vw;
+    border-color: #1e3932;
+    width: 11vw;
+}
+
+.menu img:hover
+{
+    border-style: solid;
+    border-width: 0.6vw;
+    border-color: #a4cdc2;
+}
+
+.bebidas
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: flex-start;
+    column-gap: 15vw;
+    margin-left: 9vw;
+}
+
+.bebidas-imagenes
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.alimentosYCafe
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50vw;
+}
+
+.alimentosYCafe-imagenes
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us
+{
+    margin-top: 8vh;
+}
+
+.others li
+{
+    color: gray;
+}

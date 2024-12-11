@@ -251,6 +251,11 @@ button
     font-family: "Noto Sans", sans-serif;
 }
 
+.about-us h3
+{
+    font-weight: 400;
+}
+
 .client-attention
 {
     margin-left: 3vw;
