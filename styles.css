@@ -23,6 +23,11 @@ body
     display: none;
 }
 
+.media-query-tablet
+{
+    display: none;
+}
+
 #logo 
 {
     width: 50px;
