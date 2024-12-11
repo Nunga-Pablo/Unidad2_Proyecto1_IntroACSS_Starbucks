@@ -5,18 +5,53 @@
     * 
     {
         margin: 0px;
-        padding: 0px;
+        padding: 0%;
+        width: 100%;
     }
 
-    .header-no-media-query
+    .no-media-query
     {
         display: none;
+    }
+
+    .media-query
+    {
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .navbar-media-query
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0%;
+    }
+
+    .navbar-left
+    {
+        margin-left: 5vw;
+        margin-right: 28vw;
+    }
+
+    .navbar-right
+    {
+        margin-left: 38vw;
+    }
+
+    .navbar-right img
+    {
+        width: 5vw;
     }
 
     .container
     {
         margin: 0px;
         flex-direction: column;
+        margin-bottom: 20px;
+        padding-bottom: 5vh;
+        width: 100%;
     }
 
     #container-blue
@@ -31,24 +66,82 @@
 
     #individual-img
     {
-        width: 90vw;
+        width: 100%;
         padding: 0%;
     }
 
     .container-couple
     {
         margin: 0px;
-        padding: 0px;
+        padding: 0%;
         flex-direction: column;
+        margin-bottom: 20px;
     }
 
     #couple-img-red
     {
-        width: 90vw;
+        width: 100%;
     }
 
     #couple-img-blue
     {
-        width: 90vw;
+        width: 100%;
+    }
+
+    #button-conoce
+    {
+        width: 17vw;
+        margin-top: 5vh;
+    }
+
+    #button-aqui
+    {
+        width: 8vw;
+        margin-bottom: 5vh;
+    }
+
+    #button-vermas
+    {
+        width: 14vw;
+        margin-bottom: 4vh;
+    }
+
+    .about-us
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        margin-top: -3vh;
+        margin-left: -16vw;
+    }
+
+    .client-attention
+    {
+        margin-top: 5vh;
+    }
+
+    .social-media
+    {
+        display: flex;
+        margin-left: 0px;
+        margin-bottom: 4vh;
+        width: 100%;
+    }
+
+    .others li
+    {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .others li
+    {
+        margin-left: 0px;
+        border-right: 0.5px solid;
+        border-color: gray;
+        padding-right: 0px;
     }
 }
