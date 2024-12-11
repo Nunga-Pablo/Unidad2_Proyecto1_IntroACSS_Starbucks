@@ -1,0 +1,119 @@
+@media (max-width: 993px)
+{
+    * 
+    {
+        margin: 0px;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .header-rewards
+    {
+        display: none;
+    }
+
+    .media-query
+    {
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .navbar-media-query
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0;
+        padding: 0%;
+    }
+
+    .navbar-left
+    {
+        margin: 0;
+    }
+
+    .navbar-right
+    {
+        margin: 0;
+    }
+
+    .navbar-right img
+    {
+        width: 5vw;
+    }
+
+    .rewards-container
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .left-container
+    {
+        position: static;
+        width: 100%;
+    }
+
+    .hand-rewards
+    {
+        display: flex;
+        flex-direction: row;
+        position: static;
+    }
+
+    .right-container
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .join-rewards
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .stars-rewards
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .app-download
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .youtube-video
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .order-and-pay
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .starbucks-app
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    .conoce-mas
+    {
+        margin: 0;
+        width: 100%;
+    }
+
+    footer
+    {
+        margin: 0;
+        width: 100%;
+    }
+}
