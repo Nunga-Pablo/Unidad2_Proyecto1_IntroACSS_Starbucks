@@ -1,0 +1,54 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 768px)
+{
+    * 
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header-no-media-query
+    {
+        display: none;
+    }
+
+    .container
+    {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    #container-blue
+    {
+        flex-direction: column;
+    }
+
+    #container-green-reverse
+    {
+        flex-direction: column;
+    }
+
+    #individual-img
+    {
+        width: 90vw;
+        padding: 0%;
+    }
+
+    .container-couple
+    {
+        margin: 0px;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    #couple-img-red
+    {
+        width: 90vw;
+    }
+
+    #couple-img-blue
+    {
+        width: 90vw;
+    }
+}

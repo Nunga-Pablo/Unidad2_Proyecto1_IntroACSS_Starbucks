@@ -18,6 +18,11 @@ body
 
 /*barra navegacion*/
 
+.header-yes-media-query
+{
+    display: none;
+}
+
 #logo 
 {
     width: 50px;
