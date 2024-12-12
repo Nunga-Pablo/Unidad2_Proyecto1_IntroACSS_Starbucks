@@ -18,6 +18,16 @@ body
 
 /*barra navegacion*/
 
+.media-query
+{
+    display: none;
+}
+
+.media-query-tablet
+{
+    display: none;
+}
+
 #logo 
 {
     width: 50px;
@@ -483,12 +493,6 @@ footer p
 {
     display: flex;
     flex-wrap: wrap;
-}
-
-#join-rewards-images
-{
-    display: flex;
-    flex-direction: column;
 }
 
 #benefits
