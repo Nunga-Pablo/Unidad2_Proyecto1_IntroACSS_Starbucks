@@ -267,3 +267,15 @@ input
 {
     width: 16vw;
 }
+
+/*INGRESAR /INICIAR SESION */
+
+.black-banner-unete
+{
+    margin-left: -7vw;
+    width: 57vw;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10vh;
+}

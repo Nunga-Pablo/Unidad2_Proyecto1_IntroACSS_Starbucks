@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="styles-media-rewards.css">
+    <link rel="stylesheet" href="styles-menu.css">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1017px-Starbucks_Corporation_Logo_2011.svg.png">
-    <title>Starbucks | Registro</title>
+    <title>Starbucks | Inicia Sesión</title>
 </head>
 
 <header class="header-rewards">
@@ -51,168 +51,38 @@
     <section class="rewards-container">
         <!-- Mitad izquierda -->
         <section class="left-container">
-            <img src='https://i.postimg.cc/3wPXY3SK/rewards-logo.png' alt='starbucks-rewards-logo'/>
-            <p>Holaaaaa, café gratis</p>
-            <button id="green-button-iniciar">
-                <a id="green-button-iniciar-text" href="https://rewards.starbucks.mx/login">Iniciar sesión</a>
-            </button>
-            <button id="white-button-Unete">
-                <a href="https://rewards.starbucks.mx/register">Únete ahora</a>
-            </button>
-            <section class="hand-rewards">
-                <img src="https://i.postimg.cc/hPYxnS3f/hand-removebg-preview.png" alt="hand">
-            </section>
+            <p id="ingresa-cuenta">Registro</p>
         </section>
         <!-- Mitad derecha -->
         <section class="right-container">
-            <section class="join-rewards">
-                <h2> <span class="negritas">Únete a Starbucks Rewards </span> 
-                y desbloquea beneficios al ser <br> socio Nivel Green, todo mientras obtienes estrellas</h2>
-                <section class="join-rewards-images">
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/Cx9yt2GD/bear.png" alt="bear">
-                        <p>Disfruta antes que <br> nadie de <br> lanzamientos <br> exclusivos</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/VLRnKQcG/refill.png" alt="refill">
-                        <p>Rellena tu vaso de <br> café del día</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/c4s8g98Q/birthday.png" alt="birthday">
-                        <p>Ven por tu bebida <br> de cumpleaños</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/zGQLQq2j/offfers.png" alt="offers">
-                        <p>Ofertas exclusivas <br> y personalizadas <br> para ti</p>
-                    </section>
-                </section>
-                <div></div>
-                <h2>Obtén más beneficios al llegar a nivel Gold con 200 estrellas</h2>
-                <section class="join-rewards-images">
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/6qQc09mX/muffin.png" alt="muffin">
-                        <p>Pieza de panadería <br> de bienvenida al <br> Nivel Gold</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/pTczPKqw/GoldCard.png" alt="GoldCard">
-                        <p>Tarjeta Gold Digital</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/s2wZJpdM/Croissant.png" alt="Croissant.png">
-                        <p>Bebida o pieza de <br> panadería por <br> cada 100 Estrellas <br> acumuladas</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/3ryndwmX/gift.png" alt="gift">
-                        <p>15 Estrellas cada <br> aniversario</p>
-                    </section>
-                    <section id="join-rewards-images">
-                        <img id="benefits" src="https://i.postimg.cc/VLRnKQcG/refill.png" alt="refill">
-                        <p>Rellena tu vaso de <br> café del día</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/zGQLQq2j/offfers.png" alt="offers">
-                        <p>Ofertas exclusivas <br> y personalizadas <br> para ti</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/c4s8g98Q/birthday.png" alt="birthday">
-                        <p>Ven por tu bebida <br> de cumpleaños</p>
-                    </section>
-                    <section>
-                        <img id="benefits" src="https://i.postimg.cc/Cx9yt2GD/bear.png" alt="bear">
-                        <p>Disfruta antes que <br> nadie de <br> lanzamientos <br> exclusivos</p>
-                    </section>
+            <section class="formulary">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                      <li>
+                        <label for="mail">Ingresa tu email</label>
+                        <input type="email" id="mail" name="user_mail" placeholder="Ingresa tu email" autocomplete="off"/>
+                      </li>
+                      <li>
+                        <label for="name">Ingresa tu contraseña</label>
+                        <input type="password" id="password" name="user_password" placeholder="Ingresa tu contraseña" autocomplete="off" />
+                      </li>
+                    </ul>
+                </form>
+                <section class="form-buttons">
+                    <button class="forgot-password">
+                        <p>Olvidé mi contraseña</p>
+                    </button>
+                    <img src="https://antdigital.cl/wp-content/uploads/2024/04/Captcha-automaticamente-ANT.jpg" alt="recaptcha">
+                    <button class="login">
+                        <p>Registrarme</p>
+                    </button>
                 </section>
             </section>
-            <section class="stars-rewards">
-                <h2><span class="negritas">Tus cafés se convierten en estrellas y <br> recompensas increíbles</span></h2>
-                <img id="stars" src="https://i.postimg.cc/hvBYLJk3/star10.png" alt="star10">
-                <p class="negritas">Obtén una estrella por cada $10 <br> pagando con Starbucks card.</p>
-                <img id="stars" src="https://i.postimg.cc/YCZbNGgf/star20.png" alt="star20">
-                <p class="negritas">U obtén una estrella por cada $20 <br> pagando con efectivo o tarjeta bancaria.</p>
+            <section class="black-banner-unete">
+                <p>¡SER PARTE DE STARBUCKS REWARDS™ ES MUY FÁCIL!</p>
             </section>
-            <section class="app-download">
-                <h2>Obtén estrellas y gana recompensas <br> Así es como funciona:</h2>
-                <section class="app-download-imgs">
-                    <p>Descarga la App y registrate.</p>
-                    <img id="step1" src="https://i.postimg.cc/DfBbsV37/step1.png" alt="step1">
-                </section>
-                <section class="app-download-imgs">
-                    <img id="step2" src="https://i.postimg.cc/vB5kjLMv/step2.gif" alt="step2">
-                </section>
-                <section class="app-download-imgs">
-                    <p>Puedes pagar con tu Starbucks <br> Card, efectivo o tarjeta bancaria.</p>
-                    <img id="step3" src="https://i.postimg.cc/QC04Gfzc/step3.png" alt="step3">
-                </section>
-                <img id="chica-starbucks" src="https://i.postimg.cc/k5qYgj66/chica-starbucks.png" alt="chica-starbucks">
-            </section>
-            <section class="youtube-video">
-                <iframe src="https://www.youtube.com/embed/82Tcz85ZdG4?si=R35GJPRmtjNkicZm" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Ordena y paga como quieras con Starbucks Rewards</iframe>
-            </section>
-            <section class="order-and-pay">
-                <h2><span class="negritas">Ordena y paga como quieras</span></h2>
-                <section class="order-and-pay-wrap">
-                    <section class="order-and-pay-imgs">
-                        <img id="order-and-pay-stars" src="https://i.postimg.cc/5tbNgMGP/star.png" alt="star">
-                        <p>1 estrella por <br> cada $20</p>
-                    </section>
-                    <section class="order-and-pay-imgs">
-                        <img id="order-and-pay-qrs" src="https://i.postimg.cc/RFx8KMDF/qr1.png" alt="qr1">
-                        <p>Escanea el código <br> QR y paga en <br> efectivo o con <br> tarjeta bancaria. <br> SIN RECARGAR</p>
-                    </section>
-                    <section class="order-and-pay-imgs">
-                        <img id="order-and-pay-qrs" src="https://i.postimg.cc/rsQYB5F0/qr2.png" alt="qr2">
-                        <p>Añade tu tarjeta <br> bancaria en la <br> App, escanea y <br> paga desde tu <br> celular. <br> SIN RECARGAR</p>
-                    </section>
-                    <section class="order-and-pay-imgs">
-                        <img id="order-and-pay-stars" src="https://i.postimg.cc/5tbNgMGP/star.png" alt="star">
-                        <p>1 estrella por <br> cada $10</p>
-                    </section>
-                    <section class="order-and-pay-imgs">
-                        <img id="order-and-pay-qrs" src="https://i.postimg.cc/NfFNy9jD/qr3.png" alt="qr3">
-                        <p>Escanea y paga <br> con Starbucks <br> Card la forma más <br> fácil y rápida de <br> obtener <br> recompensas.</p>
-                    </section>
-                    <section class="order-and-pay-imgs">
-                        <img id="order-and-pay-qrs" src="https://i.postimg.cc/ZnRLy24n/qr4.png" alt="qr4">
-                        <p>Colecciona, <br> activa, registra, <br> recarga y paga con <br> tu Starbucks Card <br> favorita.</p>
-                    </section>
-                    <h2><span class="negritas">Personaliza tu experiencia con tu Starbucks Card® Favorita</span></h2>
-                    <section class="order-and-pay-card">
-                        <img id="order-and-pay-card" src="https://i.postimg.cc/wjrjNTsL/cards.gif" alt="cards">
-                        <p> <span class="negritas">Coleccionar y/o regalar <br> Starbucks Card, también te  <br> da recompensas <br></span> <br>
-                            Activa, registra y recarga para <br> poder disfrutar de los <br> beneficios y seguir <br> acumulando Estrellas 
-                        </p>
-                    </section>
-                </section>
-            </section>
-            <section class="starbucks-app">
-                <h2><span class="negritas">Una experiencia llena de recompensas y beneficios con tus favoritos</span></h2>
-                <img src="https://i.postimg.cc/wvNBk8dM/transfers.gif" alt="transfer">
-                <p>Descarga la app Starbucks México, es una opción de pago sin <br>
-                    contacto, cada que vengas paga con ella, acumula estrellas <br>
-                    y obtén recompensas.
-                </p>
-                <section class="play-app-store">
-                    <a href="https://apps.apple.com/mx/app/starbucks-m%C3%A9xico/id570779372" target="_blank"><img src="https://i.postimg.cc/mkG7YyKx/appStore.png" alt="AppStore"></a>
-                    <a href="https://play.google.com/store/apps/details?id=com.starbucks.mx&pli=1" target="_blank"><img src="https://i.postimg.cc/LscPSV9q/play-Store.png" alt="PlayStore"></a>
-                </section>
-                <p> <span class="negritas">¡Tus cafés se convierten en estrellas y recompensas increíbles!</span></p>
-                <img src="https://i.postimg.cc/DzXWxbr7/gift-Phone.png" alt="gift-Phone">
-            </section>
-            <section class="conoce-mas">
-                <img src="https://i.postimg.cc/przb7R0h/rating-man.png" alt="rating-man">
-                <section class="conoce-mas-text">
-                    <p><span class="negritas"> Conoce más </span></p>
-                    <p>Consulta las preguntas <br> frecuentes <a href="https://rewards.starbucks.mx/faq/rewards">aquí</a></p>
-                    <p>Ver términos y condiciones <br> <a href="https://rewards.starbucks.mx/tos/rewards">aquí</a></p>
-                </section>
-            </section>
-            
-            <img src="https://i.postimg.cc/jqcj4rWg/rewards-logo-2.png" alt="rewards-logo-2">
 
             <footer>
-
                 <section class="about-us" id="about-us-rewards">
                     <section>
                         <h3>Sobre nosotros</h3>
