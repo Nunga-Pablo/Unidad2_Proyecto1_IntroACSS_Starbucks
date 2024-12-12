@@ -279,3 +279,76 @@ input
     font-weight: bolder;
     margin-bottom: 10vh;
 }
+
+.day-month
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.day-month input
+{
+    width: 5vw;
+}
+
+.gray
+{
+    color: gray;
+    font-size: 1vw;
+    margin: 1vh 0 1vh 0;
+}
+
+.bold
+{
+    font-weight: bold;
+    font-size: 1.1vw;
+    margin: 1vh 0 1vh 0;
+}
+
+#little
+{
+    font-size: 0.8vw;
+}
+
+.options-circle
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.options-circle button
+{
+    background: none;
+    border-radius: 100%;
+    border: gainsboro solid;
+    width: 1.5vw;
+    height: 3.8vh;
+    margin-right: 0.5vw;
+}
+
+.options-circle button:hover
+{
+    background-color: #008000;
+}
+
+.options-square
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.options-square button
+{
+    background: none;
+    border-radius: 25%;
+    border: gray solid;
+    width: 1.5vw;
+    height: 3.8vh;
+    margin-right: 0.5vw;
+}
+
+.options-square button:hover
+{
+    background-color: #008000;
+}

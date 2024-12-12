@@ -58,21 +58,69 @@
             <section class="formulary">
                 <form action="/my-handling-form-page" method="post">
                     <ul>
-                      <li>
-                        <label for="mail">Ingresa tu email</label>
-                        <input type="email" id="mail" name="user_mail" placeholder="Ingresa tu email" autocomplete="off"/>
-                      </li>
-                      <li>
-                        <label for="name">Ingresa tu contraseña</label>
-                        <input type="password" id="password" name="user_password" placeholder="Ingresa tu contraseña" autocomplete="off" />
-                      </li>
+                        <li>
+                            <p class="bold">Información personal (*) campos obligatorios</p>
+                            <p class="gray">¡Regístrate y comienza a vivir la experiencia Starbucks <br> Rewards™!</p>
+                        </li>
+                        <li>
+                            <label for="mail">Nombre(s)</label>
+                            <input type="text" id="nombre" name="user_name" placeholder="Nombre(s)*" autocomplete="off"/>
+                        </li>
+                        <li>
+                            <label for="mail">Apellido paterno</label>
+                            <input type="text" id="apellido" name="user_lastname" placeholder="Apellido paterno*" autocomplete="off"/>
+                        </li>
+                        <li>
+                            <label for="mail">Ingresa tu email</label>
+                            <input type="email" id="mail" name="user_mail" placeholder="Ingresa tu email" autocomplete="off"/>
+                        </li>
+                        <li>
+                            <label for="mail">Confirmar Email</label>
+                            <input type="email" id="repeat-mail" name="user_mail2" placeholder="Confirmar Email*" autocomplete="off"/>
+                        </li>
+                        <li>
+                            <label for="name">Contraseña</label>
+                            <input type="password" id="password" name="user_password" placeholder="Contraseña*" autocomplete="off" />
+                        </li>
+                        <li>
+                            <label for="name">Confirmar contraseña</label>
+                            <input type="password" id="password" name="user_password" placeholder="Confirmar contraseña*" autocomplete="off" />
+                        </li>
+                        <li>
+                            <p class="gray">Fecha de Nacimiento (Opcional)</p>
+                            <p class="gray" id="little">Agrega tu fecha de cumpleaños para otorgarte una bebida gratis en el mes <br> de tu cumpleaños</p>
+                        </li>
+                        <li class="day-month">
+                            <input type="text" id="month" name="user_password" placeholder="Mes" autocomplete="off" />
+                            <input type="text" id="day" name="user_password" placeholder="Dia" autocomplete="off" />
+                        </li>
+                        <li>
+                            <p class="bold">Ingresa a Starbucks Rewards</p>
+                            <p class="gray" id="little">Únete a Starbucks Rewards™ y disfruta de beneficios especiales.</p>
+                            <section class="options-circle">
+                                <button></button>
+                                <p class="gray" id="little">Quiero recibir una Starbucks Card digital instantánea</p>
+                            </section>
+                            <section class="options-circle">
+                                <button></button>
+                                <p class="gray" id="little">Quiero unirme con una Starbucks Card que ya tengo</p>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="bold">Términos y Condiciones</p>
+                            <section class="options-square">
+                                <button></button>
+                                <p class="gray" id="little">Deseo recibir novedades sobre productos y promociones</p>
+                            </section>
+                            <section class="options-square">
+                                <button></button>
+                                <p class="gray" id="little">Acepto los Términos y Condiciones y Aviso de Privacidad</p>
+                            </section>
+                        </li>
                     </ul>
                 </form>
                 <section class="form-buttons">
-                    <button class="forgot-password">
-                        <p>Olvidé mi contraseña</p>
-                    </button>
-                    <img src="https://antdigital.cl/wp-content/uploads/2024/04/Captcha-automaticamente-ANT.jpg" alt="recaptcha">
+                    <img src="https://i.postimg.cc/RZ0WdwgW/captcha.png" alt="recaptcha">
                     <button class="login">
                         <p>Registrarme</p>
                     </button>
